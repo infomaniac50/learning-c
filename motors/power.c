@@ -33,10 +33,6 @@ int main(int argc, char const *argv[])
     return 1;
   }
 
-  // printf("%s\n", argv[1]);
-  // printf("%s\n", argv[2]);
-  // return 0;
-
   if (sscanf(argv[1], "%f", &horsepower) != 1)
     usage();
 
